@@ -1,0 +1,26 @@
+{
+  "name": "codemirror6-firepad-demo",
+  "version": "1.0.0",
+  "description": "Codemirror6 + Firepad + rollup showcase",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "serve": "live-server dist --port=20124",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Fabbian <luca.fabbian.1999@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@codemirror/lang-javascript": "^6.0.0",
+    "@lucafabbian/firepad": "^1.5.13",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-virtual": "^2.1.0",
+    "codemirror": "^6.0.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-css-only": "^3.1.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
